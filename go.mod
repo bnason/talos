@@ -101,3 +101,5 @@ require (
 	k8s.io/kubectl v0.21.0-rc.0
 	k8s.io/kubelet v0.21.0-rc.0
 )
+
+replace github.com/talos-systems/go-smbios => github.com/bnason/go-smbios 3bb7f10d9cc331e9b9d19b3e04eebc710bd46290

@@ -66,6 +66,7 @@ func (m *Metal) Configuration(ctx context.Context) ([]byte, error) {
 				if err != nil {
 					return nil, err
 				}
+				log.Printf("UUID: %s", uuid)
 
 				values.Set("uuid", uuid.String())
 			default:
